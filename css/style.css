@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+:root {
+    --clr-primary-lightBlue: hsl(215, 51%, 70%);
+    --clr-primary-brightBlue: hsl(178, 100%, 50%);
+    --clr-neutral-mainBG: hsl(217, 54%, 11%);
+    --clr-neutral-cardBG: hsl(216, 50%, 16%);
+    --clr-neutral-line: hsl(215, 32%, 27%);
+    --clr-neutral-white: hsl(0, 0%, 100%);
+
+    --ff-basic: 'Outfit', sans-serif;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-semiBold: 600;
+}
+
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+/* img {
+    display: block;
+} */
+
+body {
+    color: var(--clr-neutral-white);
+    font-size: 1.8rem;
+    font-family: var(--ff-basic);
+    font-weight: var(--fw-light);
+    background-color: var(--clr-neutral-mainBG);
+    /* background-color: #ccc; */
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: var(--fw-semiBold); */
+}
+
+/* Utility classes */
+.flex-group-primary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.flex-group-secondary {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.primary-margin {
+    margin: 1.5rem 0;
+}
+
+
+/* Card styling */
+.card {
+    max-width: 350px;
+    margin: 6rem 2.5rem;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+
+.card__content {
+    background-color: var(--clr-neutral-cardBG);
+    padding: 2.5rem;
+
+}
+
+.card__image {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1rem
+}
+
+
+
+.card__title {
+    font-size: 2.2rem;
+    font-weight: var(--fw-semiBold);
+    margin-top: 2rem;
+}
+
+.card__info {
+    color: var(--clr-primary-lightBlue);
+    font-size: 1.6rem;
+    margin: 1.3rem 0 1.8rem 0;
+    line-height: 1.6;
+    font-weight: var(--fw-light);
+}
+
+.card__price {
+    color: var(--clr-primary-brightBlue);
+    font-size: 1.5rem;
+    /* font-weight: var(--fw-semiBold); */
+    font-weight: var(--fw-regular);
+}
+
+.card__time {
+    color: var(--clr-primary-lightBlue);
+    font-size: 1.5rem;
+    font-weight: var(--fw-regular);
+}
+
+
+.card__divider {
+    display: block;
+    height: 1px;
+    border: none;
+    background-color: var(--clr-neutral-line);
+    margin: 1.5rem 0;
+}
+
+.card__avatar {
+    width: 12%;
+    border: 1px solid var(--clr-neutral-white);
+    border-radius: 50%;
+}
+
+.card__creator {
+    gap: 1.5rem;
+}
+
+.card__creator {
+    font-size: 1.55rem;
+}
+
+.card__note {
+    color: var(--clr-primary-lightBlue);
+}
+
+.card__creator-name {
+    color: var(--clr-neutral-white);
+}
+
+@media  screen and (min-width: 400px) {
+    .card__info {
+        font-size: 1.8rem;
+    }
+}
