@@ -12,9 +12,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -35,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/ricochet69/NFT-PREVIEW-CARD-COMPONENT](https://github.com/ricochet69/NFT-PREVIEW-CARD-COMPONENT)
+- Live Site URL: [https://ricochet69.github.io/NFT-PREVIEW-CARD-COMPONENT](https://ricochet69.github.io/NFT-PREVIEW-CARD-COMPONENT)
 
 ## My process
 
